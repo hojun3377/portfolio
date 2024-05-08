@@ -1,0 +1,121 @@
+/* body * {
+  box-sizing: border-box;
+  border: 5px solid black;
+} */
+
+#portfolio {
+  width: 100%;
+  height: 100%;
+}
+
+#portfolio header,
+#portfolio p,
+#portfolio a {
+  font-family: 'Black Han Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#portfolio h1 {
+  font-size: 4em;
+  color: black;
+}
+
+#portfolio h3 {
+  font-size: 3em;
+  color: darkslategrey;
+}
+
+#portfolio p {
+  font-size: 3em;
+  color: slategray;
+}
+
+#intro {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+}
+
+#intro .intro-container {
+  width: 35%;
+  height: 70%;
+  margin: auto auto 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#projects {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#projects header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+
+#projects > header {
+  display: none;
+}
+
+#projects .projects-container {
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#projects article {
+  width: 30%;
+  box-sizing: border-box;
+  border: 10px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#projects h3 {
+  margin: auto;
+}
+
+#projects .img-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+#projects img {
+  max-width: 100%;
+  max-height: 70%;
+  margin: auto;
+  display: block;
+}
+
+#projects .button-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+#projects a {
+  margin: auto;
+  font-size: 1.5em;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: lightslategrey;
+  color: rgb(232, 236, 229);
+}
+
+#projects a:hover {
+  background-color: lightgrey;
+  color: whitesmoke;
+}
