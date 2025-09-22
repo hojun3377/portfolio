@@ -1,0 +1,21 @@
+# 빌드 산출물
+dist
+build
+coverage
+
+# 패키지 캐시
+node_modules
+
+# 환경 설정
+.env
+.env.*.local
+
+# IDE / 편집기
+.vscode
+.idea
+
+# 로그
+*.log
+
+# 잠금 파일
+package-lock.json
